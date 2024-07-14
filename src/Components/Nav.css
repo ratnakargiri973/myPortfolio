@@ -1,0 +1,27 @@
+a{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+a:hover{
+    background-color: darkmagenta;
+    color: white;
+}
+a:active{
+    transform: scale(0.96);
+}
+.Nav{
+    margin-top: 0;
+    width: 100%;
+    position: fixed;
+    background-color:  rgb(7, 91, 67);
+    z-index: 1;
+}
+li{
+    transition: all 0.5s ease;
+}
+li:hover{
+ color: rgb(135, 77, 79);
+}

@@ -1,0 +1,110 @@
+.About{
+    padding-top: 4rem;
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutMe{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.aboutMe img{
+    width: 20rem;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px grey;
+}
+.mySelf{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    /* text-align: center; */
+}
+.TechnicalSkills{
+    width: 100%;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.skillIcon{
+    padding: 0 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.skillIcon i{
+    padding: 2rem 3rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px gray;
+    background-color: aquamarine;
+    color: blue;
+    font-size: 4rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.skillIcon i:hover{
+    background-color: rgb(158, 95, 160);
+}
+.Tools{
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 1.5rem;
+ padding: 0 5rem;
+padding-top: 3rem;
+padding-bottom: 2rem;
+}
+
+.toolsImg{
+    padding: 0 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.toolsImg img{
+    width: 5rem;
+    height: 5rem;  
+}
+.toolsImg button{
+ padding: 1rem 2.5rem;
+box-shadow: 0 4px 10px gray;
+background-color: aquamarine;
+text-align: center;
+border-radius: 5px;
+transition: all 0.5s ease;
+}
+.toolsImg button:hover{
+    background-color: crimson;
+}
+.Footer{
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+    background-color: rgb(7, 91, 67);
+}
+.Footer a{
+    transition:all 0.5s ease;
+}
+.Footer a:hover{
+    color: crimson;
+}
+.Footer a:active{
+    transform: scale(0.96);
+}

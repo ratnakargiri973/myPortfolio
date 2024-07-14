@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+.Home{
+    padding-top: 5rem;
+    width: 100%;
+}
+.Hello{
+    width: 100%;
+    height: 70vh;
+}
+.Introduction{
+/* padding-top: 8rem; */
+width: 100%;
+height: 70vh;
+}
+.social a{
+    transition:all 0.5s ease;
+}
+.social a:hover{
+    color: rgb(42, 126, 96);
+}
+.social a:active{
+    transform: scale(0.96);
+}
+.Introduction img{
+ border-radius: 100%;
+ height: 24rem;
+}
+.Footer{
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+    background-color: rgb(7, 91, 67);
+}
+.Footer a{
+    transition:all 0.5s ease;
+}
+.Footer a:hover{
+    color: crimson;
+}
+.Footer a:active{
+    transform: scale(0.96);
+}

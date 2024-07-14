@@ -1,0 +1,101 @@
+.contact{
+    width: 100%;
+    height: 88vh;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactForm{
+    width: 40%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(182, 240, 240);
+    border-radius: 20px;
+    padding: 2rem;
+}
+.form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.form button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: green;
+    transition: all 0.3s ease;
+}
+.form button:hover{
+    background-color: blue;
+}
+.form button:active{
+    transform: scale(0.96);
+}
+.formInput{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+}
+.formInput input, textarea{
+    width: 75%;
+    border-radius: 10px;
+    background-color: darkkhaki;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: crimson;
+}
+.formInput label{
+    color: brown;
+    font-weight: bold;
+}
+.socialContact{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.contactIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.contactIcon a{
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.contactIcon a:hover{
+    color: rgb(42, 126, 96);
+}
+.contactIcon a:active{
+    transform: scale(0.96);
+}
+.Footer{
+    width: 100%;
+    height: 3rem;
+    margin-top: 2.2rem;
+    background-color: rgb(7, 91, 67);
+}
+.Footer a{
+    transition:all 0.5s ease;
+}
+.Footer a:hover{
+    color: crimson;
+}
+.Footer a:active{
+    transform: scale(0.96);
+}
