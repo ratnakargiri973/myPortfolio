@@ -41,10 +41,10 @@ function About(){
             <div className='Tools text-gray-100'>
                 <h1 className='font-bold text-4xl'>Tools I use</h1>
             <div className='toolsImg'>
-              <button><img src="./src/assets/NB.png" alt="" /></button>
-              <button><img src="./src/assets/VS.png" alt="" /></button>
-              <button> <img src="./src/assets/Vercel.png" alt="" /></button>
-              <button> <img src="./src/assets/GitBash.png" alt="" /></button>
+              <button><img src="https://download.logo.wine/logo/NetBeans/NetBeans-Logo.wine.png" alt="" /></button>
+              <button><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmRWCTvfI3-Eqf_vBB6NyfSyB54B1SQB6kTg&s" alt="" /></button>
+              <button> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-dsnecEEglI2JvWvGi97XEE0DdBcK7EkTBA&s" alt="" /></button>
+              {/* <button> <img src="./src/assets/GitBash.png" alt="" /></button> */}
               </div>
             </div>
         </div>
