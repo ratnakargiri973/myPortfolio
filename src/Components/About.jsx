@@ -24,7 +24,7 @@ function About(){
                        </div>
                        <p className='text-center flex flex-col'>"Always Focus On the process, <br /> best outcomes autometically will come." <span className='pl-48'>-Ratnakar Giri</span></p>
                 </div>
-                <img src="./src/assets/my.jpg" alt="" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKMmDu-KOXg_6g-ScKNaHny_lNwHLSRSGZuk322hSU_p3wLtCSiBfsW0NHvM-pHm97tQY&usqp=CAU" alt="" />
             </div>
             <div className='TechnicalSkills text-gray-100'>
             <h1 className='font-bold text-4xl'>Technical Skills</h1>
