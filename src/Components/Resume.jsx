@@ -1,4 +1,5 @@
 import './Resume.css'
+// import resume from './src/assets/RatnakarResume.jpg'
 function Resume(){
 
     const handleDownload = () => {
@@ -14,7 +15,7 @@ function Resume(){
         <>
         <div className="resumeContainer text-gray-100">
             <h1 className='font-bold text-4xl'>Here is my resume...</h1>
-         <img src="./src/assets/RatnakarResume.jpg" alt="" />
+         <img src="https://www.getsetresumes.com/storage/resume-examples/December2021/TqRhYXXNuH20lRVUBF0n.jpg" alt="" />
         <button onClick={handleDownload}>Download</button>
         <div className="Footer text-gray-100 flex justify-around items-center">
                 <p>Designed and Developed by Ratnakar Giri</p>
