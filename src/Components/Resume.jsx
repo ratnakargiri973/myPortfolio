@@ -4,10 +4,10 @@ import ResumeDoc from '../assets/RatnakarGiri.pdf'
 function Resume(){
 
     const handleDownload = () => {
-        const url = {ResumeDoc}; // Replace with your document URL
+        const url = ResumeDoc;
         const link = document.createElement('a');
         link.href = url;
-        link.setAttribute('download', 'Ratnakar Giri.pdf'); // Specify the file name
+        link.setAttribute('download', 'RatnakarGiri.pdf');
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
