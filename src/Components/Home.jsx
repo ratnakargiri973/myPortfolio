@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
 import './Home.css'
 import My from '../assets/my.jpg'
+import Developer from '../assets/Developer.png'
+
+
 function Home(){
     const [type, setType] = useState(["Software Developer","Website Designer","Mern Stack Developer"]);
     const [index, setIndex] = useState(0);
@@ -24,7 +27,7 @@ function Home(){
                 <h1>I'm Ratnakar Giri</h1>
                  <h1>Willing for {type[index]}</h1>
                  </div>
-                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6oj3XhFLtUShjZ_4Fc28OOu81Rgru_PhyNw&s" alt=""  className="w-96"/>
+                 <img src={Developer} alt=""  className="w-96"/>
             </div>
             <div className="Introduction flex justify-between items-center px-40">
                 <div className="selfIntroduction text-gray-100 flex justify-between items-start flex-col gap-4" >
