@@ -1,6 +1,6 @@
 import './Resume.css'
 import MyResume from '../assets/RatnakarResume.jpg'
-import ResumeDoc from '../assets/Ratnakar Giri.pdf'
+import ResumeDoc from '../assets/RatnakarGiri.pdf'
 function Resume(){
 
     const handleDownload = () => {
