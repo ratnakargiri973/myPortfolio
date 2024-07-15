@@ -4,6 +4,9 @@ import NB from '../assets/NB.png'
 import Vercel from '../assets/Vercel.png'
 import VS from '../assets/VS.png'
 import GitBash from '../assets/GitBash.png'
+import SlackLogo from '../assets/SlackLogo.png'
+
+
 function About(){
     return (
         <>
@@ -49,6 +52,8 @@ function About(){
               <button><img src={VS} alt="" /></button>
               <button> <img src={Vercel} alt="" /></button>
               <button> <img src={GitBash} alt="" /></button>
+              <button> <img src={SlackLogo} alt="" /></button>
+
               </div>
             </div>
         </div>
