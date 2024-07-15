@@ -1,9 +1,10 @@
 import './Resume.css'
-// import resume from './src/assets/RatnakarResume.jpg'
+import MyResume from '../assets/RatnakarResume.jpg'
+import ResumeDoc from '../assets/Ratnakar Giri.pdf'
 function Resume(){
 
     const handleDownload = () => {
-        const url = './src/assets/Ratnakar Giri.pdf'; // Replace with your document URL
+        const url = {ResumeDoc}; // Replace with your document URL
         const link = document.createElement('a');
         link.href = url;
         link.setAttribute('download', 'Ratnakar Giri.pdf'); // Specify the file name
@@ -15,7 +16,7 @@ function Resume(){
         <>
         <div className="resumeContainer text-gray-100">
             <h1 className='font-bold text-4xl'>Here is my resume...</h1>
-         <img src="https://www.getsetresumes.com/storage/resume-examples/December2021/TqRhYXXNuH20lRVUBF0n.jpg" alt="" />
+         <img src={MyResume} alt="" />
         <button onClick={handleDownload}>Download</button>
         <div className="Footer text-gray-100 flex justify-around items-center">
                 <p>Designed and Developed by Ratnakar Giri</p>
