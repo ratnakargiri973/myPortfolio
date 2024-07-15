@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import './Home.css'
-function Home({My}){
+import My from '../assets/my.jpg'
+function Home(){
     const [type, setType] = useState(["Software Developer","Website Designer","Mern Stack Developer"]);
     const [index, setIndex] = useState(0);
 
@@ -33,8 +34,8 @@ function Home({My}){
                 <p>My field of Interest's are building new  Web Technologies and Products.</p>
                 <p>Whenever possible, I also apply my passion for developing products with Modern Javascript Library and Frameworks  like  <span className="text-cyan-400">React.js</span></p>
                 </div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUhRE8GhGU2XXcmwm6EHxH7Iv5S360epD4vg&s" alt=""className="w-96" />
-                {/* <img src="./src/assets/my.jpg" alt="" /> */}
+                {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUhRE8GhGU2XXcmwm6EHxH7Iv5S360epD4vg&s" alt=""className="w-96" /> */}
+                <img src={My} alt="" />
             </div>
             <div className="findMe  text-gray-100 flex justify-center items-center gap-4 flex-col">
                 <h1 className="text-4xl  text-green-700 font-bold">CONNECT ME ON</h1>
