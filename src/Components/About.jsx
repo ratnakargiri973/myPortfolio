@@ -1,5 +1,9 @@
 import './About.css'
-// import My from './src/assets/my.jpg'
+import My from '../assets/my.jpg'
+import NB from '../assets/NB.png'
+import Vercel from '../assets/Vercel.png'
+import VS from '../assets/VS.png'
+import GitBash from '../assets/GitBash.png'
 function About(){
     return (
         <>
@@ -24,7 +28,7 @@ function About(){
                        </div>
                        <p className='text-center flex flex-col'>"Always Focus On the process, <br /> best outcomes autometically will come." <span className='pl-48'>-Ratnakar Giri</span></p>
                 </div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKMmDu-KOXg_6g-ScKNaHny_lNwHLSRSGZuk322hSU_p3wLtCSiBfsW0NHvM-pHm97tQY&usqp=CAU" alt="" />
+                <img src={My} alt="" />
             </div>
             <div className='TechnicalSkills text-gray-100'>
             <h1 className='font-bold text-4xl'>Technical Skills</h1>
@@ -41,10 +45,10 @@ function About(){
             <div className='Tools text-gray-100'>
                 <h1 className='font-bold text-4xl'>Tools I use</h1>
             <div className='toolsImg'>
-              <button><img src="https://download.logo.wine/logo/NetBeans/NetBeans-Logo.wine.png" alt="" /></button>
-              <button><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmRWCTvfI3-Eqf_vBB6NyfSyB54B1SQB6kTg&s" alt="" /></button>
-              <button> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-dsnecEEglI2JvWvGi97XEE0DdBcK7EkTBA&s" alt="" /></button>
-              {/* <button> <img src="./src/assets/GitBash.png" alt="" /></button> */}
+              <button><img src={NB} alt="" /></button>
+              <button><img src={VS} alt="" /></button>
+              <button> <img src={Vercel} alt="" /></button>
+              <button> <img src={GitBash} alt="" /></button>
               </div>
             </div>
         </div>
